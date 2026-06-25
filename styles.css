@@ -135,7 +135,6 @@ h1,h2,h3,h4,h5{
 .topbar__right{ display:flex; align-items:center; gap:18px; }
 .topbar__badge{
   display:inline-flex; align-items:center; gap:.4em;
-  background:rgba(255,255,255,.16); padding:4px 12px; border-radius:99px;
   font-weight:600; color:#fff;
 }
 .topbar__hours{ color:#b9c8f5; }
@@ -206,9 +205,8 @@ h1,h2,h3,h4,h5{
 .hero__inner{ position:relative; z-index:3; padding:70px 0; width:100%; }
 .hero__badge{
   display:inline-flex; align-items:center; gap:.5em;
-  background:rgba(24,169,87,.16); color:#5fe6a0;
-  padding:7px 16px; border-radius:99px; font-family:var(--font-display);
-  font-weight:700; font-size:.82rem; letter-spacing:.04em; margin-bottom:26px;
+  color:#5fe6a0; font-family:var(--font-display);
+  font-weight:700; font-size:.85rem; letter-spacing:.1em; text-transform:uppercase; margin-bottom:22px;
 }
 .hero__badge svg{ width:15px; height:15px; }
 .hero h1{
@@ -436,7 +434,7 @@ footer.foot{ background:var(--navy); color:#9fb0c4; padding:72px 0 0; }
 .foot__brand b{ font-family:var(--font-display); font-weight:900; font-size:1.4rem; color:#5f7fe6; display:block; }
 .foot__brand span{ font-family:var(--font-display); font-weight:700; letter-spacing:.16em; color:#7e8ca0; display:block; font-size:.92rem; }
 .foot__brand p{ margin:18px 0; font-size:.96rem; max-width:34ch; }
-.foot__pill{ display:inline-flex; align-items:center; gap:.5em; background:rgba(24,169,87,.14); color:#5fe6a0; padding:7px 15px; border-radius:99px; font-family:var(--font-display); font-weight:700; font-size:.8rem; }
+.foot__pill{ display:inline-flex; align-items:center; gap:.5em; color:#5fe6a0; font-family:var(--font-display); font-weight:700; font-size:.82rem; }
 .foot__pill svg{ width:15px; height:15px; }
 .foot h4{ color:#fff; font-size:1.18rem; margin-bottom:20px; }
 .foot__links li{ margin-bottom:11px; }
