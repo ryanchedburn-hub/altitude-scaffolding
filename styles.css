@@ -208,7 +208,7 @@ h1,h2,h3,h4,h5{
   color:#5fe6a0; font-family:var(--font-display);
   font-weight:700; font-size:.85rem; letter-spacing:.1em; text-transform:uppercase; margin-bottom:22px;
 }
-.hero__badge svg{ width:15px; height:15px; }
+.hero__badge svg{ width:15px; height:15px; flex:none; }
 .hero h1{
   color:#fff; font-size:clamp(2.8rem,7.5vw,5.8rem); font-weight:900;
   letter-spacing:-.03em; max-width:14ch;
@@ -434,8 +434,8 @@ footer.foot{ background:var(--navy); color:#9fb0c4; padding:72px 0 0; }
 .foot__brand b{ font-family:var(--font-display); font-weight:900; font-size:1.4rem; color:#5f7fe6; display:block; }
 .foot__brand span{ font-family:var(--font-display); font-weight:700; letter-spacing:.16em; color:#7e8ca0; display:block; font-size:.92rem; }
 .foot__brand p{ margin:18px 0; font-size:.96rem; max-width:34ch; }
-.foot__pill{ display:inline-flex; align-items:center; gap:.5em; color:#5fe6a0; font-family:var(--font-display); font-weight:700; font-size:.82rem; }
-.foot__pill svg{ width:15px; height:15px; }
+.foot__pill{ display:inline-flex; align-items:center; gap:11px; color:#5fe6a0; font-family:var(--font-display); font-weight:600; font-size:.82rem; letter-spacing:.01em; }
+.foot__pill svg{ width:15px; height:15px; flex:none; stroke-width:2.5; }
 .foot h4{ color:#fff; font-size:1.18rem; margin-bottom:20px; }
 .foot__links li{ margin-bottom:11px; }
 .foot__links a{ color:#9fb0c4; transition:.2s; font-size:.96rem; }
